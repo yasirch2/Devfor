@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+    background-color: #004AA1;
+}
+
+.nav-bar {
+    display: flex;
+    padding-top: 10px;
+}
+
+.logo-img img {
+    padding-top: 6px;
+    padding-left: 55px;
+    height: 50px;
+    width: 157px;
+}
+
+.menu-bar {
+    width: 62%;
+    align-content: center;
+}
+
+.menu-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 42px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar ul li {
+    color: white;
+    font-size: 14px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon p{
+    color: white;
+    font-weight: 400;
+}
+.eng-icon{
+    display: flex;
+}
+
+
+.eng-icon img {
+    height: 20px;
+    width: 20px;
+}
+
+.nav-btn {
+    align-content: center;
+    padding-left: 10px;
+}
+
+.nav-btn button {
+    height: 32px;
+    width: 88px;
+}
+
+.heading {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.heading h1 {
+    color: white;
+    max-width: 300px;
+    padding-top: 90px;
+    font-size: 45px;
+    font-weight: 500;
+}
+#high-light {
+    color: #09CEF1;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.para-section p {
+    color: white;
+    width: 35%;
+}
+
+.para-btn {
+    padding-top: 16px;
+}
+
+button#btn-1 {
+    color: white;
+    padding: 5px;
+    background-color: #09CEF1;
+    border: none;
+    border-radius: 3px;
+}
+
+button#btn-2 {
+    color: white;
+    padding: 4px;
+    border: 1px solid #09CEF1;
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 3px;
+    margin-left: 8px;
+}
+
+.first-section {
+    display: flex;
+}
+
+
+
+.section-img img {
+    width: 350px;
+}

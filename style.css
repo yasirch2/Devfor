@@ -11,6 +11,7 @@
 
 .nav-bar {
     display: flex;
+    justify-content: space-between;
     padding-top: 10px;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .menu-bar {
-    width: 62%;
+    /* width: 62%; */
     align-content: center;
 }
 
@@ -43,13 +44,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-right: 40px;
 }
 
-.icon p{
+.icon p {
     color: white;
     font-weight: 400;
 }
-.eng-icon{
+
+.eng-icon {
     display: flex;
 }
 
@@ -76,24 +79,35 @@
 
 .heading h1 {
     color: white;
-    max-width: 300px;
+    max-width: 400px;
     padding-top: 90px;
-    font-size: 45px;
-    font-weight: 500;
+    font-size: 60px;
+    font-weight: 500
 }
+
 #high-light {
     color: #09CEF1;
-    font-size: 45px;
+
     font-weight: 500;
 }
 
 .para-section p {
     color: white;
-    width: 35%;
+    max-width: 300px;
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 17px;
+    padding-top: 14px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+#devfor-1 {
+    font-weight: 400;
 }
 
 .para-btn {
-    padding-top: 16px;
+    padding-top: 36px;
 }
 
 button#btn-1 {
@@ -102,6 +116,8 @@ button#btn-1 {
     background-color: #09CEF1;
     border: none;
     border-radius: 3px;
+    font-weight: 300;
+
 }
 
 button#btn-2 {
@@ -111,6 +127,7 @@ button#btn-2 {
     background-color: rgba(0, 255, 255, 0);
     border-radius: 3px;
     margin-left: 8px;
+    font-weight: 300;
 }
 
 .first-section {
@@ -121,4 +138,179 @@ button#btn-2 {
 
 .section-img img {
     width: 350px;
+    width: 477px;
+    height: 507px;
+}
+
+/* second-section */
+
+.heading-section {
+    color: #25408E;
+    text-align: center;
+}
+
+.heading-section h1 {
+    font-weight: 400;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+#high-light-2 {
+    font-weight: 600;
+}
+
+.devfor-box {
+    padding-bottom: 60px
+}
+
+.inner-box {
+    width: 380px;
+    background: #efefef3b;
+    box-shadow: 1px 0px 6px 1px #969090;
+    margin-top: 10px;
+    padding: 8px 0px 36px 12px;
+    border-radius: 8px;
+}
+
+.inner-box img {
+    height: 40px;
+    width: 40px;
+}
+
+.inner-box h3 {
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    font-weight: 400;
+}
+
+.inner-box p {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-box {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+
+}
+
+
+/* third-section */
+
+.devfor-about {
+    background: url('img/Background-img.png') no-repeat center center/cover;
+    min-height: 600px;
+}
+
+.about-section {
+    height: 600px;
+    align-content: center;
+    padding-left: 78px;
+
+
+}
+
+.about-section h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+    padding-bottom: 8px;
+
+}
+
+.about-section p {
+    color: white;
+    width: 619px;
+    font-size: 1.9rem;
+}
+
+/* forth-section */
+
+.service-heading {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.service-heading h1 {
+    font-size: 46px;
+}
+
+.service-heading p {
+    font-size: 23px;
+}
+
+.service-main-box {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.service-inner {
+    background-color: #EEF1F6;
+    box-shadow: 1px 0px 6px 1px #969090;
+    width: 274px;
+    height: 285px;
+    padding-left: 14px;
+    border-radius: 12px;
+}
+
+.service-inner h3 {
+    padding-top: 26px;
+    padding-bottom: 14px;
+    font-size: 32px;
+}
+
+.service-inner p {
+    font-size: 24px;
+}
+
+/* fifth-section */
+
+.client-section {
+    background: url('img/Backround-img-5.png');
+    min-height: 500px;
+}
+
+.client-heading {
+    padding: 50px 102px;
+}
+
+.client-heading h1 {
+    color: white;
+}
+
+.client-box {
+    display: flex;
+    width: 345px;
+    background: #ffffff38;
+    margin-bottom: 12px;
+    border-radius: 12px;
+}
+
+.client-img img {
+    width: 36px;
+    /* margin-left: 4px;
+    margin-top: 7px; */
+    margin: 12px;
+}
+
+.client-main-box {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.client-name {
+    font-size: 20px;
+    padding-top: 4px;
+}
+
+.client-name p {
+    font-size: 14px;
+    padding-bottom: 30px;
 }

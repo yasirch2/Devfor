@@ -6,20 +6,22 @@
 }
 
 .main-container {
-    background-color: #004AA1;
+    /* background-color: #004AA1; */
+    background: url('img/Background-img-1.png') no-repeat center center/cover;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    align-items: center;
 }
 
 .logo-img img {
     padding-top: 6px;
     padding-left: 55px;
-    height: 50px;
-    width: 157px;
+    height: 54px;
+    width: 175px;
 }
 
 .menu-bar {
@@ -37,7 +39,12 @@
 
 .menu-bar ul li {
     color: white;
-    font-size: 14px;
+    font-size: 11px;
+}
+
+.menu-bar ul li:hover {
+    text-decoration: underline;
+
 }
 
 .icon {
@@ -50,31 +57,39 @@
 .icon p {
     color: white;
     font-weight: 400;
+    font-size: 11px;
 }
 
 .eng-icon {
     display: flex;
+    align-items: center;
 }
 
 
 .eng-icon img {
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
+    margin-left: 8px;
 }
 
 .nav-btn {
+
     align-content: center;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .nav-btn button {
+    color: white;
+    background-color: #09CEF1;
+    border: none;
+    border-radius: 4px;
     height: 32px;
     width: 88px;
 }
 
 .heading {
-    width: 50%;
-    padding-left: 100px;
+    width: 58%;
+    padding-left: 60px;
 }
 
 .heading h1 {
@@ -112,22 +127,26 @@
 
 button#btn-1 {
     color: white;
-    padding: 5px;
-    background-color: #09CEF1;
-    border: none;
-    border-radius: 3px;
+    font-size: 9px;
     font-weight: 300;
+    background-color: #09CEF1;
+    border: 1px solid #09CEF1;
+    padding: 8px 16px 8px 16px;
+    ;
+    border-radius: 4px;
 
 }
 
 button#btn-2 {
     color: white;
-    padding: 4px;
-    border: 1px solid #09CEF1;
-    background-color: rgba(0, 255, 255, 0);
-    border-radius: 3px;
-    margin-left: 8px;
+    font-size: 9px;
     font-weight: 300;
+    border-radius: 4px;
+    background-color: #09cef118;
+    border: 1px solid #09CEF1;
+    padding: 8px 16px 8px 16px;
+    ;
+    margin-left: 10px;
 }
 
 .first-section {
@@ -150,9 +169,10 @@ button#btn-2 {
 }
 
 .heading-section h1 {
+    font-size: 34px;
     font-weight: 400;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 25px;
 }
 
 
@@ -165,23 +185,33 @@ button#btn-2 {
 }
 
 .inner-box {
-    width: 380px;
+    width: 415px;
+    height: 190px;
     background: #efefef3b;
-    box-shadow: 1px 0px 6px 1px #969090;
+    box-shadow: 1px 0px 6px 1px #e6e6e6;
     margin-top: 10px;
-    padding: 8px 0px 36px 12px;
+    /* padding: 8px 0px 36px 12px; */
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.inner-box:hover {
+    box-shadow: 1px 0px 6px 1px #969090;
 }
 
 .inner-box img {
     height: 40px;
     width: 40px;
+    margin-bottom: 4px;
 }
 
 .inner-box h3 {
-    font-size: 16px;
-    padding-top: 8px;
-    padding-bottom: 6px;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-weight: 400;
 }
 
@@ -202,11 +232,11 @@ button#btn-2 {
 
 .devfor-about {
     background: url('img/Background-img.png') no-repeat center center/cover;
-    min-height: 600px;
+    min-height: 420px;
 }
 
 .about-section {
-    height: 600px;
+    height: 420px;
     align-content: center;
     padding-left: 78px;
 
@@ -215,7 +245,7 @@ button#btn-2 {
 
 .about-section h1 {
     color: white;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 400;
     padding-bottom: 8px;
 
@@ -223,24 +253,31 @@ button#btn-2 {
 
 .about-section p {
     color: white;
-    width: 619px;
-    font-size: 1.9rem;
+    max-width: 410px;
+    font-size: 20px;
 }
 
 /* forth-section */
 
 .service-heading {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .service-heading h1 {
-    font-size: 46px;
+    font-size: 36px;
+    line-height: 66px;
 }
 
 .service-heading p {
-    font-size: 23px;
+    font-size: 24px;
+    text-align: center;
+    max-width: 380px;
+    line-height: 26px;
 }
 
 .service-main-box {
@@ -251,22 +288,32 @@ button#btn-2 {
 }
 
 .service-inner {
-    background-color: #EEF1F6;
-    box-shadow: 1px 0px 6px 1px #969090;
-    width: 274px;
-    height: 285px;
-    padding-left: 14px;
-    border-radius: 12px;
+    background-color: #f2f2f2;
+    /* box-shadow: 1px 0px 6px 1px #969090; */
+    box-shadow: 0px 5px 6px -2px #969090;
+    width: 195px;
+    height: 216px;
+    padding-left: 17px;
+    border-radius: 10px;
 }
 
+.service-inner:hover {
+    background-color: #EEF1F6;
+    box-shadow: 1px 0px 6px 1px #969090;
+}
+
+
 .service-inner h3 {
-    padding-top: 26px;
+    padding-top: 36px;
     padding-bottom: 14px;
-    font-size: 32px;
+    font-size: 18px;
+    max-width: 140px;
+
 }
 
 .service-inner p {
-    font-size: 24px;
+    font-size: 15px;
+    max-width: 160px;
 }
 
 /* fifth-section */
@@ -277,23 +324,25 @@ button#btn-2 {
 }
 
 .client-heading {
-    padding: 50px 102px;
+    padding: 50px 150px;
 }
 
 .client-heading h1 {
     color: white;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .client-box {
     display: flex;
     width: 345px;
     background: #ffffff38;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     border-radius: 12px;
 }
 
 .client-img img {
-    width: 36px;
+    width: 40px;
     /* margin-left: 4px;
     margin-top: 7px; */
     margin: 12px;
@@ -301,7 +350,7 @@ button#btn-2 {
 
 .client-main-box {
     display: flex;
-    gap: 12px;
+    gap: 16px;
     justify-content: center;
 }
 
@@ -310,7 +359,12 @@ button#btn-2 {
     padding-top: 4px;
 }
 
+.client-name h3 {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
 .client-name p {
-    font-size: 14px;
-    padding-bottom: 30px;
+    font-size: 13px;
+    padding-bottom: 14px;
 }

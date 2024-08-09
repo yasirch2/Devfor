@@ -89,8 +89,9 @@
     background-color: #09CEF1;
     border: none;
     border-radius: 4px;
-    height: 32px;
-    width: 88px;
+    height: 25px;
+    width: 84px;
+    font-size: 13px;
 }
 
 .heading {
@@ -101,7 +102,7 @@
 .heading h1 {
     font-family: "Open Sans", sans-serif;
     color: white;
-    max-width: 410px;
+    max-width: 430px;
     padding-top: 90px;
     font-size: 60px;
     font-weight: 500
@@ -118,8 +119,8 @@
     max-width: 300px;
     font-weight: 300;
     line-height: 25px;
-    font-size: 17px;
-    padding-top: 14px;
+    font-size: 15px;
+    padding-top: 6px;
 
 }
 
@@ -136,46 +137,53 @@ button#btn-1 {
     color: white;
     cursor: pointer;
     font-family: "Open Sans", sans-serif;
-    font-size: 9px;
+    font-size: 13px;
     font-weight: 400;
     background-color: #09CEF1;
     border: 1px solid #09CEF1;
-    padding: 7px 14px 7px 14px;
-    border-radius: 2px;   
-
+    /* padding: 7px 14px 7px 14px; */
+    border-radius: 2px;
+    height: 30px;
+    width: 84px;
 }
 
 button#btn-2 {
     color: white;
     cursor: pointer;
     font-family: "Open Sans", sans-serif;
-    font-size: 9px;
+    font-size: 13px;
     font-weight: 400;
     border-radius: 4px;
     background-color: #09cef118;
     border: 1px solid #09CEF1;
-    padding: 7px 14px 7px 14px;
+    /* padding: 7px 14px 7px 14px; */
     border-radius: 2px;
     margin-left: 10px;
+    height: 30px;
+    width: 84px;
 }
 
 .first-section {
     display: flex;
 }
 
-
+.section-img {
+    position: relative;
+    bottom: -4px;
+}
 
 .section-img img {
     width: 350px;
     width: 477px;
-    height: 507px;
+    height: 540px;
 }
 
 /* second-section */
 
-.devfor-main-container{
+.devfor-main-container {
     background-image: url('img/background-img-2.png');
 }
+
 .heading-section {
     color: #25408E;
     text-align: center;
@@ -231,7 +239,7 @@ button#btn-2 {
 
 .inner-box p {
     font-size: 14px;
-    
+
 }
 
 .main-box {

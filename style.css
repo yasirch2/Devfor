@@ -41,7 +41,7 @@
 .menu-bar ul li {
     font-family: "Open Sans", sans-serif;
     color: white;
-    font-size: 11px;
+    font-size: 13px;
     cursor: pointer;
 }
 
@@ -61,7 +61,7 @@
     color: white;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .eng-icon {
@@ -109,13 +109,12 @@
 
 #high-light {
     color: #09CEF1;
-
     font-weight: 500;
 }
 
 .para-section p {
-    color: white;
     font-family: "Montserrat", sans-serif;
+    color: white;
     max-width: 300px;
     font-weight: 300;
     line-height: 25px;
@@ -126,6 +125,7 @@
 
 #devfor-1 {
     font-weight: 400;
+    font-family: "Montserrat", sans-serif;
 }
 
 .para-btn {
@@ -140,7 +140,7 @@ button#btn-1 {
     font-weight: 400;
     background-color: #09CEF1;
     border: 1px solid #09CEF1;
-    padding: 6px 12px 6px 12px;
+    padding: 7px 14px 7px 14px;
     border-radius: 2px;   
 
 }
@@ -154,7 +154,7 @@ button#btn-2 {
     border-radius: 4px;
     background-color: #09cef118;
     border: 1px solid #09CEF1;
-    padding: 6px 12px 6px 12px;
+    padding: 7px 14px 7px 14px;
     border-radius: 2px;
     margin-left: 10px;
 }

@@ -38,11 +38,12 @@
     justify-content: center;
 }
 
-.menu-bar ul li {
+.menu-bar ul li a {
     font-family: "Open Sans", sans-serif;
     color: white;
     font-size: 13px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .menu-bar ul li:hover {

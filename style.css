@@ -141,7 +141,7 @@ button#btn-1 {
     background-color: #09CEF1;
     border: 1px solid #09CEF1;
     padding: 6px 12px 6px 12px;
-    border-radius: 4px;   
+    border-radius: 2px;   
 
 }
 
@@ -155,7 +155,7 @@ button#btn-2 {
     background-color: #09cef118;
     border: 1px solid #09CEF1;
     padding: 6px 12px 6px 12px;
-    border-radius: 4px;
+    border-radius: 2px;
     margin-left: 10px;
 }
 

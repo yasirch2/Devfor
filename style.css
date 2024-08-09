@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Open Sans", sans-serif;
 }
 
 .main-container {
@@ -38,12 +39,14 @@
 }
 
 .menu-bar ul li {
+    font-family: "Open Sans", sans-serif;
     color: white;
     font-size: 11px;
+    cursor: pointer;
 }
 
 .menu-bar ul li:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid #06B6D4;
 
 }
 
@@ -56,6 +59,7 @@
 
 .icon p {
     color: white;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 11px;
 }
@@ -75,11 +79,13 @@
 .nav-btn {
 
     align-content: center;
-    padding-left: 20px;
+    padding-left: 26px;
 }
 
 .nav-btn button {
+    cursor: pointer;
     color: white;
+    font-family: "Open Sans", sans-serif;
     background-color: #09CEF1;
     border: none;
     border-radius: 4px;
@@ -93,8 +99,9 @@
 }
 
 .heading h1 {
+    font-family: "Open Sans", sans-serif;
     color: white;
-    max-width: 400px;
+    max-width: 410px;
     padding-top: 90px;
     font-size: 60px;
     font-weight: 500
@@ -108,12 +115,12 @@
 
 .para-section p {
     color: white;
+    font-family: "Montserrat", sans-serif;
     max-width: 300px;
     font-weight: 300;
     line-height: 25px;
     font-size: 17px;
     padding-top: 14px;
-    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -127,25 +134,28 @@
 
 button#btn-1 {
     color: white;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
     font-size: 9px;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #09CEF1;
     border: 1px solid #09CEF1;
-    padding: 8px 16px 8px 16px;
-    ;
-    border-radius: 4px;
+    padding: 6px 12px 6px 12px;
+    border-radius: 4px;   
 
 }
 
 button#btn-2 {
     color: white;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
     font-size: 9px;
-    font-weight: 300;
+    font-weight: 400;
     border-radius: 4px;
     background-color: #09cef118;
     border: 1px solid #09CEF1;
-    padding: 8px 16px 8px 16px;
-    ;
+    padding: 6px 12px 6px 12px;
+    border-radius: 4px;
     margin-left: 10px;
 }
 
@@ -163,12 +173,16 @@ button#btn-2 {
 
 /* second-section */
 
+.devfor-main-container{
+    background-image: url('img/background-img-2.png');
+}
 .heading-section {
     color: #25408E;
     text-align: center;
 }
 
 .heading-section h1 {
+    font-family: "Open Sans", sans-serif;
     font-size: 34px;
     font-weight: 400;
     padding-top: 70px;
@@ -217,7 +231,7 @@ button#btn-2 {
 
 .inner-box p {
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
+    
 }
 
 .main-box {
@@ -304,10 +318,12 @@ button#btn-2 {
 
 
 .service-inner h3 {
+    font-family: "Barlow", sans-serif;
     padding-top: 36px;
     padding-bottom: 14px;
-    font-size: 18px;
-    max-width: 140px;
+    font-size: 20px;
+    max-width: 155px;
+    font-weight: 600;
 
 }
 
@@ -329,7 +345,7 @@ button#btn-2 {
 
 .client-heading h1 {
     color: white;
-    font-size: 36px;
+    font-size: 45px;
     font-weight: 700;
 }
 
